@@ -1,0 +1,32 @@
+
+.scroll-menu {
+    display: flex;
+    overflow-x: auto; /* Ajoutez le défilement horizontal si nécessaire */
+    white-space: nowrap; /* Empêche le retour à la ligne des éléments */
+    color: white;    
+}
+
+.scroll-menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+}
+
+.scroll-menu a.active {
+    font-weight: bold;
+}
+.home{
+    color: greenyellow;
+}
+.contact{
+    color: orangered;
+}
+.home:hover {
+    background-color: greenyellow;
+}
+.contact:hover {
+    background-color: orangered;
+}

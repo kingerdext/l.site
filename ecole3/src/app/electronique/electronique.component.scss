@@ -1,0 +1,48 @@
+.card{
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .base{
+    background-color: #c1c1c1 ;
+  }
+  strong{
+    font-size: 30px;
+  }
+  svg{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  .moved {
+    transform: translate(0px, -45px);
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+  }
+  a{
+    color:orangered; 
+    font-size: 15px;
+  }
+  a:hover{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  *{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .custom-list {
+    list-style-type: none; /* Supprime les puces par défaut */
+    padding-left: 20px; /* Ajoute un peu d'espace à gauche pour les flèches */
+  }
+  
+  .custom-list li::before {
+    content: "➔"; /* Utilise une flèche Unicode comme puce */
+    margin-right: 5px; /* Ajoute un peu d'espace entre la flèche et le texte */
+  }
+  
